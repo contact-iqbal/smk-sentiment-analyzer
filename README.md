@@ -85,16 +85,7 @@ project/
 # 1. Instal dependensi
 pip install -r requirements.txt
 
-# 2. Jalankan preprocessing
-python src/controller/preprocessing.py
-
-# 3. Latih model
-python src/controller/train_model.py
-
-# 4. Evaluasi model
-python src/controller/evaluate_model.py
-
-# 5. Jalankan aplikasi Streamlit
+# 2. Jalankan aplikasi Streamlit
 streamlit run app.py kalo gabisa pake python -m streamlit run app.py
 ```
 
